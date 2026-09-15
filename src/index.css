@@ -97,3 +97,62 @@ a {
   border-radius: 12px;
   background: white;
 }
+
+.package-card {
+  padding: 20px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background: #ffffff;
+}
+
+.package-card h3 {
+  margin: 12px 0 8px;
+}
+
+.package-category {
+  font-size: 13px;
+  color: #2563eb;
+}
+
+.package-price {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.package-card ul {
+  padding-left: 18px;
+  color: #6b7280;
+}
+
+.package-button {
+  width: 100%;
+  margin-top: 12px;
+  padding: 10px;
+  border: 1px solid #2563eb;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #2563eb;
+  cursor: pointer;
+}
+
+.packages-page {
+  padding: 48px 0;
+}
+
+.packages-header {
+  margin-bottom: 32px;
+}
+
+.packages-header h1 {
+  margin-bottom: 8px;
+}
+
+.packages-header p {
+  color: #6b7280;
+}
+
+.packages-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}

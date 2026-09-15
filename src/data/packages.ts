@@ -1,0 +1,58 @@
+import type { Package } from '../types/Package'
+
+export const packages: Package[] = [
+  {
+    id: 1,
+    name: 'DATA 70',
+    price: 70000,
+    data: '6 GB',
+    cycle: '30 ngày',
+    category: 'Data',
+    description: 'Gói dữ liệu cơ bản phù hợp nhu cầu sử dụng Internet hằng ngày.',
+  },
+  {
+    id: 2,
+    name: 'DATA 120',
+    price: 120000,
+    data: '15 GB',
+    cycle: '30 ngày',
+    category: 'Data',
+    description: 'Gói dữ liệu dành cho người dùng có nhu cầu truy cập Internet thường xuyên.',
+  },
+  {
+    id: 3,
+    name: 'COMBO 150',
+    price: 150000,
+    data: '20 GB',
+    cycle: '30 ngày',
+    category: 'Combo',
+    description: 'Gói kết hợp dữ liệu và nhu cầu liên lạc cơ bản.',
+  },
+  {
+    id: 4,
+    name: 'MAX 200',
+    price: 200000,
+    data: '30 GB',
+    cycle: '30 ngày',
+    category: 'Data',
+    description: 'Gói dung lượng cao dành cho người sử dụng Internet nhiều.',
+  },
+  {
+    id: 5,
+    name: 'VOICE 99',
+    price: 99000,
+    data: '5 GB',
+    cycle: '30 ngày',
+    category: 'Thoại',
+    description: 'Gói phù hợp với nhu cầu gọi thoại và sử dụng dữ liệu cơ bản.',
+  },
+  {
+    id: 6,
+    name: 'DATA 6T',
+    price: 650000,
+    data: '120 GB',
+    cycle: '6 tháng',
+    category: 'Dài hạn',
+    description: 'Gói dữ liệu dài hạn giúp người dùng duy trì dịch vụ trong nhiều tháng.',
+  },
+]
