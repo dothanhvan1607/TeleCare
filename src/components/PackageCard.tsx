@@ -1,4 +1,7 @@
+import { Link } from 'react-router-dom'
+
 type PackageCardProps = {
+  id: number
   name: string
   price: number
   data: string
@@ -7,6 +10,7 @@ type PackageCardProps = {
 }
 
 function PackageCard({
+  id,
   name,
   price,
   data,
@@ -28,9 +32,12 @@ function PackageCard({
         <li>Chu kỳ: {cycle}</li>
       </ul>
 
-      <button className="package-button">
+      <Link
+        to={`/packages/${id}`}
+        className="package-button"
+      >
         Xem chi tiết
-      </button>
+      </Link>
     </div>
   )
 }

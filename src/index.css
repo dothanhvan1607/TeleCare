@@ -156,3 +156,71 @@ a {
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
+
+.package-filters {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 28px;
+  flex-wrap: wrap;
+}
+
+.package-filters input,
+.package-filters select {
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  background: white;
+}
+
+.package-filters input {
+  min-width: 260px;
+}
+
+.empty-state {
+  padding: 48px 20px;
+  text-align: center;
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+}
+
+.empty-state h3 {
+  margin-bottom: 8px;
+}
+
+.empty-state p {
+  color: #6b7280;
+}
+
+.package-detail {
+  padding: 48px 0;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 24px;
+  color: #2563eb;
+}
+
+.detail-card {
+  max-width: 700px;
+  padding: 32px;
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+}
+
+.detail-card h1 {
+  margin: 12px 0;
+}
+
+.detail-price {
+  font-size: 28px;
+  font-weight: 700;
+  color: #2563eb;
+}
+
+.detail-info {
+  margin-top: 24px;
+  line-height: 1.7;
+}
