@@ -7,6 +7,8 @@ type PackageCardProps = {
   data: string
   cycle: string
   category: string
+  isFavorite: boolean
+  onToggleFavorite: (id: number) => void
 }
 
 function PackageCard({
@@ -16,10 +18,32 @@ function PackageCard({
   data,
   cycle,
   category,
+  isFavorite,
+  onToggleFavorite,
 }: PackageCardProps) {
   return (
-    <div className="package-card">
-      <span className="package-category">{category}</span>
+    <article className="package-card">
+      <div className="package-card-top">
+        <span className="package-category">
+          {category}
+        </span>
+
+        <button
+          type="button"
+          className={`favorite-button ${
+            isFavorite ? 'is-favorite' : ''
+          }`}
+          aria-pressed={isFavorite}
+          aria-label={
+            isFavorite
+              ? `Bỏ lưu gói ${name}`
+              : `Lưu gói ${name}`
+          }
+          onClick={() => onToggleFavorite(id)}
+        >
+          {isFavorite ? '♥ Đã lưu' : '♡ Quan tâm'}
+        </button>
+      </div>
 
       <h3>{name}</h3>
 
@@ -38,7 +62,7 @@ function PackageCard({
       >
         Xem chi tiết
       </Link>
-    </div>
+    </article>
   )
 }
 

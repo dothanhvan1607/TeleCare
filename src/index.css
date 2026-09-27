@@ -224,3 +224,63 @@ a {
   margin-top: 24px;
   line-height: 1.7;
 }
+
+.package-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.favorite-button {
+  padding: 8px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #4b5563;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.favorite-button:hover {
+  border-color: #e11d48;
+}
+
+.favorite-button.is-favorite {
+  background: #fff1f2;
+  border-color: #fda4af;
+  color: #be123c;
+}
+
+.favorite-button:focus-visible {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+}
+
+.package-button {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.favorites-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.favorites-filter {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.favorites-filter input {
+  width: 16px;
+  height: 16px;
+  accent-color: #e11d48;
+}
