@@ -284,3 +284,69 @@ a {
   height: 16px;
   accent-color: #e11d48;
 }
+
+.support-page {
+  padding: 48px 0;
+  max-width: 760px;
+}
+
+.support-header {
+  margin-bottom: 28px;
+}
+
+.support-header p {
+  color: #6b7280;
+}
+
+.support-form {
+  padding: 28px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 11px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font: inherit;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  outline: 2px solid #93c5fd;
+  border-color: #2563eb;
+}
+
+.form-error {
+  display: block;
+  margin-top: 6px;
+  color: #dc2626;
+  font-size: 14px;
+}
+
+.support-success {
+  margin-top: 24px;
+  padding: 20px;
+  border: 1px solid #86efac;
+  border-radius: 12px;
+  background: #f0fdf4;
+}
+
+.support-success h3 {
+  margin-top: 0;
+}
